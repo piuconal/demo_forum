@@ -521,7 +521,7 @@ button.confirm:hover {
 }
 
 /* footer */
-footer{
+footer {
   padding: 30px 0;
   width: 100%;
   display: flex;
@@ -531,13 +531,52 @@ footer{
   margin-bottom: 10px;
 }
 
-footer .f p{
+footer .f p {
   margin-top: 5px;
   color: #d3d1d1;
   font-size: 14px;
 }
-footer i{
+footer i {
   margin-top: 5px;
   color: #d3d1d1;
   font-size: 14px;
+}
+/* card-des */
+#card-des:hover{
+  background-color: #2d3238;
+}
+#card-des:hover>span{
+  text-decoration: none;
+}
+
+.post{
+  width: 1200px;
+  height: 650px;
+  background-color: #3d3f44;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.post p.ct{
+  margin-left: 30px;
+  margin-top: 20px;
+  color: white;
+  font-size: 30px;
+}
+.post img{
+  margin-top: 20px;
+  width: 900px;
+  height: 500px;
+}
+
+/* cmt */
+.cmt{
+  height: 140px;
+  width: 1200px;
+  border-radius: 5px;
+  background-color: #3d3f44;
+  margin-bottom: 10px;
+  display: flex;
 }

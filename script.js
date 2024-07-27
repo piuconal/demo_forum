@@ -198,10 +198,22 @@ document.addEventListener("DOMContentLoaded", function () {
         button.style.background = "linear-gradient(135deg, #00d2d3, #028a0f)";
         break;
       case "Busan":
-        button.style.background = "linear-gradient(135deg, #ff9a9e, #fad0c4)";
+        button.style.background = "linear-gradient(135deg, #f02930, #ffffff)";
         break;
       case "Ulsan":
         button.style.background = "linear-gradient(135deg, #a5eb9d, #8a5b6b)";
+        break;
+      case "Daegu":
+        button.style.background = "linear-gradient(135deg, #15ff00, #fad0c4)";
+        break;
+      case "Seoul":
+        button.style.background = "linear-gradient(135deg, #ebea9d, #0d7ee7)";
+        break;
+      case "Mua":
+        button.style.background = "linear-gradient(135deg, #6dd5ed, #2193b0)";
+        break;
+      case "Bán":
+        button.style.background = "linear-gradient(135deg, #9afcff, #ffe9e3)";
         break;
       default:
         button.style.background = ""; // Đặt màu nền mặc định nếu cần
@@ -209,3 +221,22 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+// des
+document.addEventListener("DOMContentLoaded", function () {
+  const des = document.getElementById("des");
+
+  des.addEventListener("click", function () {
+    window.location.href = "des.html";
+  });
+});
+
+// confirm
+document.addEventListener("DOMContentLoaded", function () {
+  const conf = document.getElementById("conf");
+
+  conf.addEventListener("click", function () {
+    window.location.href = "confirm.html";
+  });
+});
+
